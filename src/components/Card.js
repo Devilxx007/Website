@@ -3,7 +3,7 @@ import React from 'react'
 const Card = (props) => {
 console.log(props)
     return (
-<div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:scale-90">
+<div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:scale-90 justify-evenly">
         <img className="h-72 w-fit rounded-md" src={props.img} alt="Img" />
     <div className="p-5">
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{props.title}</h5>
